@@ -33,34 +33,30 @@ nav{
 }
 
 .navbar-light .navbar-brand{
-    float: right;
-    margin-left: 180px
+    float: left;
+    margin-left: 250px
 }
 
 /*Descrição da Vaga*/
-
-#conteudo{
-   margin-left: 490px;
-   position: relative;
-   height: 100%;
-}
-
 #cont-esq{
     position: absolute;
     float:left;
     overflow: hidden;
+    border:1px solid red;
+    margin-left: 490px;
+
 }
 
 #cont-dir{
     background-color: #314163;
+    border:1px solid red;
     width: 290px;
     height: 1590px;
     margin-top: 127px;
     position: relative;
     float:right;
-    margin-left: 160px;
     overflow: hidden;
-    
+    margin-left: 160px;
 }
 
 .img_vagas {
@@ -68,8 +64,8 @@ nav{
     height: 390px;
     margin-top: 300px;
     border:1px solid red;
-    margin-right: -60%;
-    overflow:hidden
+    overflow:hidden;
+    position: relative;
 }
 
 h1{
@@ -180,13 +176,25 @@ button{
 
 /*Rodapé*/
 footer{
-	margin-top:0px;
+    height: 50px;
 	width:100%;
-	height:60px;
 	clear:both;
 	padding-top:0px;
     line-height: 100px;
     background-color: #0079c1;
 }
 
+.img_rodape{
+    float: left;
+    width: 131px;
+    height: 19px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
 
+#copyright{
+    margin-top: -20px;
+    font-size: 11px;
+    margin-right: 100px;
+    color: white;
+}
